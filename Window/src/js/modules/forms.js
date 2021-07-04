@@ -10,7 +10,7 @@ const forms = (state) =>{
         loading: "Загрузка",
         success: "Спасибо скоро свяжемся",
         failure: "Ошибка"
-    }
+    };
 
     const postData = async (url,data) =>{
         document.querySelector(".status").textContent = message.loading;
@@ -53,7 +53,7 @@ const forms = (state) =>{
                     clearInputs();
                     setTimeout(()=>{
                         statusMessage.remove();
-                    },5000)
+                    },5000);
                 });
         });
     });

@@ -30,8 +30,11 @@ const tabs = (headerSelector,tabSelector,contentSelector,activeClass,display= "b
                     hideTabContent();
                     showTabContent(i);
                 }
+                
             });
+                
         }
+                
     });
 };
 
